@@ -28,6 +28,7 @@ function newGame(type, data){
     } else { // Si on éxécute la fonction avec un argument, il récupérera cette valeur en tant que ce mot à trouver
         word = data
     }
+}
 
 // - mini prompt qui indique le nombre de lettre du mots + choix de la lettre
 
