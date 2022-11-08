@@ -1,7 +1,7 @@
-echo "# pendu_js" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/OrpheanRhapsody/pendu_js.git
-git push -u origin main
+etapes :
+- dictionnaire de mots fr à télécharger
+- choisir un mot random
+- mini prompt qui indique le nombre de lettre du mots + choix de la lettre
+- rep(" _ ", length(motadeviner) )
+- structure conditionnelles pour checker la lettre
+- return nombre d'essais ... 
