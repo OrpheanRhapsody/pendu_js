@@ -12,14 +12,14 @@ function newGame(type, data){
     penduField.className=""     
 
     // On réinitialise toutes les variables
-    wordArray = [];
-    pendu = [];
+    let wordArray = [];
+    let pendu = [];
 
-    found = 0;
-    attempt = 0;
-    inputs = [];
-    gameIsOver = false;
-
+    let found = 0;
+    let attempt = 0;
+    let inputs = [];
+    let gameIsOver = false;
+    let word = ""
     if (type == "array"){
         // On prend un mot aléatoire dans le tableau des mots
         let rand = Math.floor(Math.random() * data.words.length)
@@ -35,12 +35,14 @@ function newGame(type, data){
 console.log(''.concat("Le mot à trouver fait :", mot_a_trouver.length()," caractères"))
 let answer = console.log("Tapez 1 pour choisir une lettre ou tapez 2 pour trouver le mot ")
 
-mot_crypte = "_".repeat()
-function mot_cache(mot_a_trouver, mot_crypte,  mot_courant, lettre_choisie ){}  // mot à trouver est le mot generé et mot courant est le mot deviné enrichi des précédents choix de lettres
-     let position = mot_a_trouver.indexOf(lettre_choisie) 
-     if (position > 0) {
+let mot_crypte = "_".repeat()
+function mot_cache(mot_a_trouver, mot_crypte,  mot_courant, lettre_choisie ){
+  let position = mot_a_trouver.indexOf(lettre_choisie) 
+  if (position > 0) {
 
-     }
+  }
+}  // mot à trouver est le mot generé et mot courant est le mot deviné enrichi des précédents choix de lettres
+
 // - rep(" _ ", length(motadeviner) )
 
 
