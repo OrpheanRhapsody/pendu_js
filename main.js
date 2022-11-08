@@ -14,13 +14,11 @@ function newGame(data){
     // On réinitialise toutes les variables
     wordArray = [];
     pendu = [];
-
     found = 0;
     attempt = 0;
     inputs = [];
     gameIsOver = false;
 
-    
     // On prend un mot aléatoire dans le tableau des mots
     let rand = Math.floor(Math.random() * data.words.length)
     word = data.words[rand]
