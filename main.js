@@ -12,7 +12,7 @@ function newGame(data){
     penduField.className=""     
 
     // On réinitialise toutes les variables
-    wordArray = [];
+    wordArray = [];git 
     pendu = [];
     found = 0;
     attempt = 0;
