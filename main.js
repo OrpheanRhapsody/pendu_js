@@ -45,8 +45,30 @@ function mot_cache(mot_a_trouver, mot_crypte,  mot_courant, lettre_choisie ){}  
 
 
 // - structure conditionnelles pour checker la lettre
+// let choiceLetter = "m"; // choix lettre user
+// let wordToGuess = "pomme"; // mot à diviner
+// let countTries = 15; 
+// let currentGuess = ""
+
+function isInWord(choiceLetter, wordToGuess){  
+  
+  if (wordToGuess.indexOf(choiceLetter.toLowerCase()) > -1)
+  {
+    console.log(`${choiceLetter} se trouve dans ${wordToGuess}.`);
+    console.log(`${wordToGuess.indexOf(choiceLetter.toLowerCase())}`)
+    console.log(`Il vous reste ${countTries} essais.`)
+
+  }
+  if (wordToGuess.indexOf(choiceLetter.toLowerCase()) <= -1)
+  {
+    console.log(`${choiceLetter} ne se trouve pas dans ${wordToGuess}`);
+
+  }
+}
+
+isInWord(choiceLetter, wordToGuess)
 
 // essai de mot
 
 
-// - return nombre d'essais ... 
+// - return nombre d'essais ... —
