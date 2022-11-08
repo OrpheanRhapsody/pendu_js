@@ -1,7 +1,8 @@
 //  etapes :
 
 // - dictionnaire de mots fr à télécharger
-
+// importation du contenu du fichier "disctionary.json"
+import data from './distionary.json';
 
 // - choisir un mot random
 
