@@ -2,24 +2,25 @@
 
 # Jeu du pendu <!-- omit in toc -->
 
-- Projet groupe par Romain, Robin, Florian
-- Fork de https://github.com/Fred-Vaniss/jeu-pendu
+- Projet groupe par Romain, Robin, Florian, Mohamed
+- Fork de <https://github.com/Fred-Vaniss/jeu-pendu>
 - HTML, CSS et JavaScript
 
 ## Table des matières <!-- omit in toc -->
 
-- [Le simple exercice](#Le-simple-exercice)
-- [Plus loin que ce qui avait été demandé](#Plus-loin-que-ce-qui-avait-été-demandé)
-- [L'approfondissement de l'exercice](#Lapprofondissement-de-lexercice)
-  - [Le bonhomme](#Le-bonhomme)
-  - [Des mots complexes](#Des-mots-complexes)
-  - [Un dictionnaire géant](#Un-dictionnaire-géant)
-  - [Encore plus de fonctionalités](#Encore-plus-de-fonctionalités)
-  - [Un bonhomme expressif](#Un-bonhomme-expressif)
-  - [Un clavier virtuel](#Un-clavier-virtuel)
-  - [Un site responsive](#Un-site-responsive)
-  - [Des aniations et des indicateurs sur le clavier](#Des-aniations-et-des-indicateurs-sur-le-clavier)
-- [Conclusion](#Conclusion)
+- [pendu_js](#pendu_js)
+  - [Le simple exercice](#le-simple-exercice)
+  - [Plus loin que ce qui avait été demandé](#plus-loin-que-ce-qui-avait-été-demandé)
+  - [L'approfondissement de l'exercice](#lapprofondissement-de-lexercice)
+    - [Le bonhomme](#le-bonhomme)
+    - [Des mots complexes](#des-mots-complexes)
+    - [Un dictionnaire géant](#un-dictionnaire-géant)
+    - [Encore plus de fonctionalités](#encore-plus-de-fonctionalités)
+    - [Un bonhomme expressif](#un-bonhomme-expressif)
+    - [Un clavier virtuel](#un-clavier-virtuel)
+    - [Un site responsive](#un-site-responsive)
+    - [Des aniations et des indicateurs sur le clavier](#des-aniations-et-des-indicateurs-sur-le-clavier)
+  - [Conclusion](#conclusion)
 
 ## Le simple exercice
 
