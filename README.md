@@ -2,7 +2,7 @@
 
 # Jeu du pendu <!-- omit in toc -->
 
-- Projet groupe par Romain, Robin, Florian
+- Projet groupe par Romain, Robin, Florian, Mohamed
 - Fork de https://github.com/Fred-Vaniss/jeu-pendu
 - HTML, CSS et JavaScript
 
